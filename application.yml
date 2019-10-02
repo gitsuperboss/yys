@@ -12,3 +12,8 @@ spring:
   profiles:  test
   application:
     name:  config-server-test
+---
+spring:
+  profiles:  aaa
+  application:
+    name:  config-server-aaa
