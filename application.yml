@@ -5,7 +5,7 @@
 ---
 spring:
   profiles:  dev
-    active:
+    application: 
     name: config-server-dev
 ---
 spring:
