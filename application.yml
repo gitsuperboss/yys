@@ -16,4 +16,4 @@ spring:
 spring:
   profiles:  aaa
   application:
-    name:  config-server-aaa
+    name:  config-server-abc
