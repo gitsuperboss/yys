@@ -9,7 +9,7 @@ spring:
     name: config-server-dev
 ---
 spring:
-  profiles:  test
+  profiles:  abcd
   application:
     name:  config-server-test
 ---
