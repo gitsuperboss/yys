@@ -3,17 +3,17 @@
     active:
     - dev
 ---
-# spring:
-#  profiles:  dev
-#    active:
-#    name: config-server-dev
-# ---
 spring:
-  profiles:  abcd
+  profiles:  dev
+    active:
+    name: config-server-dev
+ ---
+spring:
+  profiles:  test
   application:
-    name:  config-server-abcd
-# ---
-# spring:
-#  profiles:  aaa
-#  application:
-#    name:  config-server-abc
+    name:  config-server-test
+---
+spring:
+  profiles:  aaa
+  application: 
+    name:  config-server-aaa
