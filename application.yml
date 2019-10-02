@@ -11,7 +11,7 @@ spring:
 spring:
   profiles:  abcd
   application:
-    name:  config-server-test
+    name:  config-server-abcd
 ---
 spring:
   profiles:  aaa
