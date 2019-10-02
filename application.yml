@@ -1,19 +1,19 @@
-﻿spring:
-  profiles:
-    active:
-    - dev
----
-spring:
-  profiles:  dev
-    active:
-    name: config-server-dev
----
-spring:
-  profiles:  abcd
-  application:
-    name:  config-server-abcd
----
-spring:
-  profiles:  aaa
-  application:
-    name:  config-server-abc
+﻿# spring:
+#  profiles:
+#    active:
+#    - dev
+# ---
+# spring:
+#  profiles:  dev
+#    active:
+#    name: config-server-dev
+# ---
+# spring:
+#  profiles:  abcd
+#  application:
+#    name:  config-server-abcd
+# ---
+# spring:
+#  profiles:  aaa
+#  application:
+#    name:  config-server-abc
